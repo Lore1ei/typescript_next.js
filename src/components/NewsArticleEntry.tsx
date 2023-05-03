@@ -6,7 +6,7 @@ interface NewsArticleEntryProps {
     article: NewsArticle
 }
 
-const NewsArticleEntry: FC<NewsArticleEntryProps> = ({article : {title, description, url, urlToImage}}: NewsArticleEntryProps) => {
+const NewsArticleEntry: FC = ({article : {title, description, url, urlToImage}}: NewsArticleEntryProps) => {
     const validImageUrl = (urlToImage?.startsWith("http://") || urlToImage?.startsWith("https://")) ? urlToImage : undefined
 
     return (
