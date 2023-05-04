@@ -1,7 +1,8 @@
 import {FC, FormEvent, useState} from 'react'
 import Head from "next/head";
 import {NewsArticle} from "@/modules/NewsArticles";
-import {Button, Form} from "react-bootstrap";
+import {Alert, Button, Form, Spinner} from "react-bootstrap";
+import NewsArticleGrid from "@/components/NewsArticleGrid";
 
 
 const SearchNews: FC = ({}) => {
@@ -15,18 +16,31 @@ const SearchNews: FC = ({}) => {
         const searchQuery = formData.get('searchQuery')?.toString().trim();
 
         if (searchQuery){
-            alert(searchQuery)
+            try {
+                setSearchResults(null);
+                setSearchResultsLoadingIsError(false);
+                setSearchResultsLoading(true);
+                const response = await fetch('/api/search-news?q=' + searchQuery);
+                const articles: NewsArticle[] = await response.json();
+                setSearchResults(articles)
+            }catch (error){
+                console.log(error);
+                setSearchResultsLoadingIsError(true);
+            }finally {
+                setSearchResultsLoading(false)
+            }
         }
     }
 
     return (
         <>
             <Head>
-                <title>Next js </title>
+                <title key="title">Search Next js </title>
                 <meta name="keywords" content="HTML, CSS, JavaScript" />
                 <meta name="description" content="Free Web tutorials" />
             </Head>
             <main>
+                <Alert>Api Next.js Routes</Alert>
                 <h1>Search News</h1>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3" controlId="search-input">
@@ -35,6 +49,12 @@ const SearchNews: FC = ({}) => {
                     </Form.Group>
                     <Button type="submit" className="mb-3" disabled={searchResultsLoading}>Search</Button>
                 </Form>
+                <div className="d-flex flex-column align-items-center">
+                    {searchResultsLoading && <Spinner animation="border"/>}
+                    {searchResultsLoadingIsError && <p>Something went wrong</p>}
+                    {searchResults?.length === 0 && <p>Nothing found try a different query</p>}
+                    {searchResults && <NewsArticleGrid articles={searchResults} />}
+                </div>
             </main>
         </>
     )

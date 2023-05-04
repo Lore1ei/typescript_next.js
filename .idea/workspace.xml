@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19baffe8-bdd9-46e5-9777-ed365ecef759" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/NewsArticleEntry.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NewsArticleGrid.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/NewsArticles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/search.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/App.module.css" afterDir="false" />
+    <list default="true" id="19baffe8-bdd9-46e5-9777-ed365ecef759" name="Changes" comment="some news">
+      <change afterPath="$PROJECT_DIR$/src/pages/categories/[category].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/hello.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/hello.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/search-news.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsArticleGrid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsArticleGrid.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/search-news.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/search-news.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/search.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +53,18 @@
       <updated>1683032558627</updated>
       <workItem from="1683032559741" duration="38000" />
       <workItem from="1683032736195" duration="5045000" />
-      <workItem from="1683121363644" duration="4166000" />
+      <workItem from="1683121363644" duration="4531000" />
+      <workItem from="1683207305543" duration="5489000" />
+      <workItem from="1683215353433" duration="404000" />
     </task>
+    <task id="LOCAL-00001" summary="some news">
+      <created>1683125723831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683125723831</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +80,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="some news" />
+    <option name="LAST_COMMIT_MESSAGE" value="some news" />
   </component>
 </project>

@@ -10,8 +10,8 @@ interface NewsArticleGridProps {
 const NewsArticleGrid: FC<NewsArticleGridProps> = ({articles}:NewsArticleGridProps) => {
     return (
         <Row xs={1} sm={2} xl={3} className="g-4">
-            {articles.map(article => (
-                <Col key={article.title}>
+            {articles.map((article, i) => (
+                <Col key={article.urlToImage + i}>
                     <NewsArticleEntry article={article}/>
                 </Col>
             ))}
