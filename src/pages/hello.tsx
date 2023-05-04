@@ -21,9 +21,9 @@ export default function Home({ post }) {
     );
 }
 
-const defaultPage = 1;
 
 export const getServerSideProps = async (context) => {
+    const defaultPage = 1;
     const response = await fetch(
         "https://jsonplaceholder.typicode.com/posts/" + (context.query.page || defaultPage)
     );

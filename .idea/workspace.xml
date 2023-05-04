@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19baffe8-bdd9-46e5-9777-ed365ecef759" name="Changes" comment="some news">
-      <change afterPath="$PROJECT_DIR$/src/pages/categories/[category].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/hello.tsx" afterDir="false" />
+    <list default="true" id="19baffe8-bdd9-46e5-9777-ed365ecef759" name="Changes" comment="api search, and dynamic routes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsArticleGrid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsArticleGrid.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/search-news.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/search-news.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/search.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,17 +21,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/NextJs/typescript&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;F:\\NextJs\\typescript\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/NextJs/typescript",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "F:\\NextJs\\typescript\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\NextJs\typescript\src\components" />
@@ -55,7 +50,7 @@
       <workItem from="1683032736195" duration="5045000" />
       <workItem from="1683121363644" duration="4531000" />
       <workItem from="1683207305543" duration="5489000" />
-      <workItem from="1683215353433" duration="404000" />
+      <workItem from="1683215353433" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="some news">
       <created>1683125723831</created>
@@ -64,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683125723831</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="api search, and dynamic routes">
+      <created>1683215844493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683215844493</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +85,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some news" />
-    <option name="LAST_COMMIT_MESSAGE" value="some news" />
+    <MESSAGE value="api search, and dynamic routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="api search, and dynamic routes" />
   </component>
 </project>
