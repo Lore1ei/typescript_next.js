@@ -7,7 +7,7 @@ interface NewsArticleGridProps {
     articles: NewsArticle[]
 }
 
-const NewsArticleGrid: FC<NewsArticleGridProps> = ({articles}:NewsArticleGridProps) => {
+const NewsArticleGrid: FC<NewsArticleGridProps> = ({articles}) => {
     return (
         <Row xs={1} sm={2} xl={3} className="g-4">
             {articles ? articles.map((article, i) => (
