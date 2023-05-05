@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19baffe8-bdd9-46e5-9777-ed365ecef759" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/assets/images/placeholder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NavBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/404.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/500.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/categories/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsArticleEntry.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsArticleEntry.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/categories/[category].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/categories/[category].tsx" afterDir="false" />
-    </list>
+    <list default="true" id="19baffe8-bdd9-46e5-9777-ed365ecef759" name="Changes" comment="navbar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +51,7 @@
       <workItem from="1683207305543" duration="5489000" />
       <workItem from="1683215353433" duration="687000" />
       <workItem from="1683216048849" duration="897000" />
-      <workItem from="1683292759648" duration="3122000" />
+      <workItem from="1683292759648" duration="3592000" />
     </task>
     <task id="LOCAL-00001" summary="some news">
       <created>1683125723831</created>
@@ -98,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683293688568</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="navbar">
+      <created>1683296348654</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683296348654</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +116,7 @@
     <MESSAGE value="some news" />
     <MESSAGE value="api search, and dynamic routes" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="navbar" />
   </component>
 </project>
