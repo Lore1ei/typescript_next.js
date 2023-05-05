@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import {NewsArticle, NewsResponse} from "@/modules/NewsArticles";
-import {GetStaticPaths, GetStaticProps} from "next";
+import {GetStaticPaths} from "next";
 import NewsArticleGrid from "@/components/NewsArticleGrid";
 import {useRouter} from "next/router";
 import Head from "next/head";
@@ -28,12 +28,12 @@ export const getStaticPaths: GetStaticPaths = async () => {
     }
 }
 
-export const getStaticProps: GetStaticProps<CategoryNewsPageProps> = async ({params}) => {
+export const getStaticProps: ({params}: { params: any }) => Promise<{ revalidate: number; props: { newsArticles: NewsArticle[] | null } }> = async ({params}) => {
     const category = params?.category?.toString();
     const response = await fetch(`https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${process.env.NEWS_API_KEY}`)
     const newsResponse: NewsResponse = await response.json();
     return {
-        props: { newsArticles: newsResponse.articles }, revalidate: 5 * 60
+        props: { newsArticles: newsResponse.articles || null, }, revalidate: 5 * 60
     }
 }
 

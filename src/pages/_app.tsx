@@ -7,11 +7,13 @@ import styles from "@/styles/App.module.css";
 import "bootstrap/dist/css/bootstrap.min.css"
 import NavBar from "@/components/NavBar";
 import NextNProgress from "nextjs-progressbar";
+import {SSRProvider} from '@react-aria/ssr';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
+      <SSRProvider>
       <div className={inter.className}>
           <Head>
               <title>Next js news app</title>
@@ -20,9 +22,11 @@ export default function App({ Component, pageProps }: AppProps) {
           </Head>
           <NextNProgress />
           <NavBar />
-          <Container className={styles.pageContainer}>
-              <Component {...pageProps} />
-          </Container>
+
+              <Container className={styles.pageContainer}>
+                  <Component {...pageProps} />
+              </Container>
       </div>
+      </SSRProvider>
   )
 }

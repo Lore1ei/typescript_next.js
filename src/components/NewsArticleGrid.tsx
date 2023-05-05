@@ -10,11 +10,11 @@ interface NewsArticleGridProps {
 const NewsArticleGrid: FC<NewsArticleGridProps> = ({articles}:NewsArticleGridProps) => {
     return (
         <Row xs={1} sm={2} xl={3} className="g-4">
-            {articles.map((article, i) => (
-                <Col key={article.urlToImage + i}>
+            {articles ? articles.map((article, i) => (
+                <Col key={article.urlToImage ? article.urlToImage + i : i}>
                     <NewsArticleEntry article={article}/>
                 </Col>
-            ))}
+            )) : null}
         </Row>
     )
 }

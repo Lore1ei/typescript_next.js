@@ -1,6 +1,14 @@
 import { useRouter } from "next/router";
 
-export default function Home({ post }) {
+interface PostProps {
+    post: {
+        title: string,
+        body: string
+    }
+}
+
+
+export default function Home({ post } : PostProps) {
     const router = useRouter();
 
     return (
@@ -22,7 +30,7 @@ export default function Home({ post }) {
 }
 
 
-export const getServerSideProps = async (context) => {
+export const getServerSideProps = async (context : any) => {
     const defaultPage = 1;
     const response = await fetch(
         "https://jsonplaceholder.typicode.com/posts/" + (context.query.page || defaultPage)

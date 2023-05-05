@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19baffe8-bdd9-46e5-9777-ed365ecef759" name="Changes" comment="navbar">
-      <change beforePath="$PROJECT_DIR$/src/components/NewsArticleEntry.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsArticleEntry.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsArticleGrid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsArticleGrid.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/categories/[category].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/categories/[category].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/hello.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/hello.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +59,7 @@
       <workItem from="1683207305543" duration="5489000" />
       <workItem from="1683215353433" duration="687000" />
       <workItem from="1683216048849" duration="897000" />
-      <workItem from="1683292759648" duration="3904000" />
+      <workItem from="1683292759648" duration="6267000" />
     </task>
     <task id="LOCAL-00001" summary="some news">
       <created>1683125723831</created>
@@ -104,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683296442484</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="navbar">
+      <created>1683296922328</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683296922328</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
